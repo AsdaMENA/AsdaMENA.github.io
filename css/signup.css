@@ -582,7 +582,6 @@ input[type="text"], input[type="email"], input[type="password"] {
   color: #fff;
   font-family: 'Cairo', sans-serif;
   direction: rtl;
-  height: 39px !important;
 }
 
 input.email, input.text.w3lpass {
@@ -1179,6 +1178,10 @@ input.checkbox:checked:after {
   .main-w3layouts {
     padding: 1em 0 0;
   }
+}
+
+input:focus::placeholder {
+  opacity: 0 !important;
 }
 
 
