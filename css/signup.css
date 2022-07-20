@@ -582,7 +582,7 @@ input[type="text"], input[type="email"], input[type="password"] {
   color: #fff;
   font-family: 'Cairo', sans-serif;
   direction: rtl;
-  height: 40px !important;
+  height: 39px !important;
 }
 
 input.email, input.text.w3lpass {
